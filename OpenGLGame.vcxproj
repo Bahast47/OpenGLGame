@@ -71,7 +71,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>OGL3D/include/;OGL3D/source/;$(IncludePath)</IncludePath>
+    <IncludePath>OGL3D/include/;OGL3D/source/;OGL3D7/vendor/glad/include/;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -133,10 +133,12 @@
     <ClCompile Include="Game\main.cpp" />
     <ClCompile Include="OGL3D\source\OGL3D\Game\OGame.cpp" />
     <ClCompile Include="OGL3D\source\OGL3D\Window\OWindow.cpp" />
+    <ClCompile Include="OGL3D\source\OGL3D\Game\Graphics\OGraphicsEngine.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OGL3D\include\OGL3D\Game\OGame.h" />
     <ClInclude Include="OGL3D\include\OGL3D\Window\OWindow.h" />
+    <ClInclude Include="OGL3D\include\OGL3D\Game\Graphics\OGraphicsEngine.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

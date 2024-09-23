@@ -24,12 +24,18 @@
     <ClCompile Include="OGL3D\source\OGL3D\Game\OGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="OGL3D\source\OGL3D\Game\Graphics\OGraphicsEngine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="OGL3D\include\OGL3D\Window\OWindow.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="OGL3D\include\OGL3D\Game\OGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OGL3D\include\OGL3D\Game\Graphics\OGraphicsEngine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
